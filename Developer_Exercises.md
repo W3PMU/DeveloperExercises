@@ -7,7 +7,7 @@
 # Development Exercises and Examples
 
 - [GPA Developer Workstation](Exercise_GPA_Developer_Workstation.md)
-    - [GPA GridSolutionsFramework Development](Exercise_GPA_GridSolutionsFramework_Development.md)
+    - [GPA GridSolutionsFramework Development](Exercise_GPA_GridSolutionsFramework_Development.md)
     - [GPA openPDC Development](Exercise_GPA_openPDC_Development.md)
 - [openPDC and PMU Connection Tester in Windows Server 2016 and Windows 10](Exercise_openPDC_and_PMUConnectionTester_in_Windows2016.md)
 
