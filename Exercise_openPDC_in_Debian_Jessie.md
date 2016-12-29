@@ -42,20 +42,12 @@ The virtual machines will be created with a clean operating system and software 
     - RAM = 16GB, 2133 MHz, non-ECC
     - WiFi Ethernet with Internet access
 
-#### **`OPDC-01`** openPDC Server virtual machine
-    - OS = Windows Server 2016 Standard
+#### **`OPDC-D86`** openPDC Server virtual machine
+    - OS = Debian Jessie 8.6.0 amd64 from netinst.iso 
     - Software = **GPA Software**
-    - CPU = 2 virtual cores
-    - RAM = 4096MB standard (not dynamic)
-    - VHD = 127GB virtual hard drive
-
-#### **`PMU-TESTER`** PMU Connection Tester Workstation virtual machine
-    - OS = Windows 10 Enterprise 2016 LTSB
-    - Software = **GPA Software**
-    - Environment for developing, debugging, and documenting GPA Software
     - CPU = 2 virtual cores
     - RAM = 2048MB standard (not dynamic)
-    - VHD = 127GB virtual hard drive
+    - VHD = 64GB virtual hard drive
 
 ---
 
