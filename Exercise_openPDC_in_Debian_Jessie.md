@@ -30,18 +30,17 @@ This is a *cookbook recipe* style exercise procedure for setting up an openPDC S
 
 ### Platform Description
 
-This example uses a Microsoft Windows Server 2012 R2 Host server, named [GPA-HOST](#gpa-host-platform-host-server) running Hyper-V to host virtual machines configured with various operating systems and GPA software. The GPA-HOST server also runs Microsoft DNS Server to map the host's and virtual machines' names to IP addresses in our local network.  
+This example uses a Windows 10 Host PC, named [`GPA-VBOX`](#gpa-vbox-platform-host-server) running VirtualBox to host virtual machines configured with various operating systems and GPA software.   
 
 The virtual machines will be created with a clean operating system and software installed for this example.  This document will try to highlight the non-default customized installation and configuration steps.  This document does not include many *default* installation and configuration steps.
 
 ### Platform Configuration
 
-#### **`GPA-HOST`** Platform Host Server
-    - Windows Server 2012 R2 Standard with Hyper-V for hosting virtual machines
-    - DNS Server
-    - CPU = AMD Phenom X4, 3.2GHz
-    - RAM = 16GB, 1600 MHz, non-ECC
-    - Ethernet with Internet access
+#### **`GPA-VBOX`** Platform Host PC
+    - Windows 10 Enterprise 2016 LTSB with Oracle VirtualBox 5.1.12 for hosting virtual machines
+    - CPU = Intel i7, 2.8GHz, Laptop
+    - RAM = 16GB, 2133 MHz, non-ECC
+    - WiFi Ethernet with Internet access
 
 #### **`OPDC-01`** openPDC Server virtual machine
     - OS = Windows Server 2016 Standard
