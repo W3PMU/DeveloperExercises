@@ -137,7 +137,7 @@ C:\Users\Administrator> ping time.nist.gov
     - Adjust for Best Performance: click the *Advanced system settings* link
         - In the *System Properties / Advanced* tab's *Performance* section, click the *Settings...* button
         - Click the *Adjust for best performance* radio option, and select only the minimum Custom features desired
-        - [![](Developer_Exercises.files/Win10_SystemProperties_PerformanceOptions.png)]()
+        - [![](DeveloperExercises.files/Win10_SystemProperties_PerformanceOptions.png)]()
 - 12. After rebooted, *Shut Down* the virtual machine and create a Hyper-V Checkpoint recording of this basic installation configuration
 
 ---
@@ -161,7 +161,7 @@ C:\Users\Administrator> ping time.nist.gov
     - Disable the *Hide extensions of known file types* option by unchecking it
     - Click the *Apply* button
     - Click the *Apply to all folders* button
-    - [![](Developer_Exercises.files/Win10_FileExplorer_View_FolderOptions.png)]()
+    - [![](DeveloperExercises.files/Win10_FileExplorer_View_FolderOptions.png)]()
 
 ### Downloading and Installing Software Packages Procedure
 
