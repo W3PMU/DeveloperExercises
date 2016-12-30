@@ -51,15 +51,15 @@ The virtual machines will be created with a clean operating system and software 
 
 ---
 
-### Host Server Setup
+### Host PC Setup
 
-In this example, the *Host Server* is a general purpose physical server whose function is providing a Hyper-V infrastructure to run the virtual machines and local DNS service.  Setting up the *Host Server* is beyond the scope of this example.  However, the only significant *Host Server* setup beyond a clean Windows install is the installation of Hyper-V and DNS services.
+In this example, the *Host PC* is a general purpose physical laptop whose function is providing a VirtualBox infrastructure to run the virtual machines.  Setting up the *Host PC* is beyond the scope of this example.  However, the only significant *Host PC* setup beyond a clean Windows install is the simple installation of [Oracle VirtualBox](http://www.virtualbox.org) software.
 
 #### DNS Configuration
 
-The Host Server *DNS service* is optional.  The *DNS service* provides reliable and easy to manage Host Name to IP address resolution. This example will use *static IPv4 addresses* for all of the machines.
+This exercise will use each machine's **hosts** file for DNS Host Name to IP Address resolution.  The *Host PC* will keep its current *DHCP dynamic IP Address* and the virtual machines will use *static IPv4 addresses*.
 
-This example's local area network (LAN) IP Address range is `192.168.1.0 to 192.168.1.255`. Your network will not likely use the same IP Addresses. Also the `gpa.net` domain name is arbitrary. If using a different domain name, make sure it does not conflict with a *real Internet domain* you may want to access. Also, make sure to configure the DNS server's to *Forwarders* properties to resolve Internet side domains' host names.
+This example's local area network (LAN) IP Address range is `192.168.1.0 to 192.168.1.255`. Your network will not likely use the same IP Addresses. Also the `gpa.net` domain name is arbitrary. If using a different domain name, make sure it does not conflict with a *real Internet domain* you may want to access. 
 
 1. Create a **Forward Lookup Zone** for the domain named:  `gpa.net`
 2. Under the `gpa.net` zone, create the following **Host A** records:
