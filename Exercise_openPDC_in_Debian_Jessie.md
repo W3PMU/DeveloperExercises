@@ -32,7 +32,7 @@ This is a *cookbook recipe* style exercise procedure for setting up an openPDC S
 
 This example uses a Windows 10 Host PC, named [`GPA-VBOX`](#gpa-vbox-platform-host-server) running VirtualBox to host virtual machines configured with various operating systems and GPA software.   
 
-The virtual machines will be created with a clean operating system and software installed for this example.  This document will try to highlight the non-default customized installation and configuration steps.  This document does not include many *default* installation and configuration steps.
+The virtual machines will be created with a clean operating system and software installed for this example. This document will try to highlight the non-default customized installation and configuration steps. This document does not include many *default* installation and configuration steps.
 
 ### Platform Configuration
 
@@ -53,11 +53,11 @@ The virtual machines will be created with a clean operating system and software 
 
 ### Host PC Setup
 
-In this example, the *Host PC* is a general purpose physical laptop whose function is providing a VirtualBox infrastructure to run the virtual machines.  Setting up the *Host PC* is beyond the scope of this example.  However, the only significant *Host PC* setup beyond a clean Windows install is the simple installation of [Oracle VirtualBox](http://www.virtualbox.org) software.
+In this example, the *Host PC* is a general purpose physical laptop whose function is providing a VirtualBox infrastructure to run the virtual machines. Setting up the *Host PC* is beyond the scope of this example. However, the only significant *Host PC* setup beyond a clean Windows install is the simple installation of [Oracle VirtualBox](http://www.virtualbox.org) software.
 
 #### DNS Configuration
 
-This exercise will use each machine's **hosts** file for DNS Host Name to IP Address resolution.  The *Host PC* will keep its current *DHCP dynamic IP Address* and the virtual machines will use *static IPv4 addresses*.
+This exercise will use each machine's **hosts** file for DNS Host Name to IP Address resolution. The *Host PC* will keep its current *DHCP dynamic IP Address* and the virtual machines will use *static IPv4 addresses*.
 
 This example's local area network (LAN) IP Address range is `192.168.1.0 to 192.168.1.255`. Your network will not likely use the same IP Addresses. Also the `gpa.net` domain name is arbitrary. If using a different domain name, make sure it does not conflict with a *real Internet domain* you may want to access. 
 
@@ -82,7 +82,7 @@ This example uses a minimal installation with [Debian 8.6.0 netinst.iso for amd6
 
 ##### **IMPORTANT: PASSWORDS**
 
-In Production Deployments, complex passwords are desireable.  However, in these cookbook scenarios, certain test procedures may be easier to troubleshoot if your passwords are at least 8 alpha-numeric characters long, with mixed character cases, and at least 1 numeric digit.  For now, avoid short simple passwords and avoid using symbols in the passwords.
+In Production Deployments, complex passwords are desireable. However, in these cookbook scenarios, certain test procedures may be easier to troubleshoot if your passwords are at least 8 alpha-numeric characters long, with mixed character cases, and at least 1 numeric digit. For now, avoid short simple passwords and avoid using symbols in the passwords.
 
 ---
 
