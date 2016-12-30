@@ -61,13 +61,18 @@ This exercise will use each machine's **hosts** file for DNS Host Name to IP Add
 
 This example's local area network (LAN) IP Address range is `192.168.1.0 to 192.168.1.255`. Your network will not likely use the same IP Addresses. Also the `gpa.net` domain name is arbitrary. If using a different domain name, make sure it does not conflict with a *real Internet domain* you may want to access. 
 
-1. Create a **Forward Lookup Zone** for the domain named:  `gpa.net`
-2. Under the `gpa.net` zone, create the following **Host A** records:
-    - `GPA-HOST     A  192.168.1.249`
-    - `OPDC-01      A  192.168.1.110`
-    - `PMU-TESTER   A  192.168.1.120`
-3. Set the DNS Server's **Forwarders** properties to include your favorite ISP's DNS service or public DNS service.  This example uses Google's public DNS.
-    - `8.8.8.8    google-public-dns-a.google.com`
+Do the following on the *Host PC*:
+
+1. Open a *Command Prompt* as Administrator
+2. Run `ipconfig /all` and record the IPv4 Address. In my laptop, this address is 192.168.1.40. Your results are likely different.
+3. Run `ping 192.168.1.112` to test the IPv4 Address we will be assigning to the `OPDC-D86` virtual machine
+    - Run `arp -a` to verify that 192.168.1.112 is not being used by any other MAC addresses.
+    - If 192.168.1.112 is listed in the `arp -a` list, then pick a different IP address and test again
+4. Run `notepac C:\Windows\system32\drivers\etc\hosts` and add the following entries
+    - `192.168.1.40      gpa-vbox.gpa.net`
+    - `192.168.1.112     opdc-d86.gpa.net`
+5. Run `ipconfig /flushdns` to clear the local DNS cache
+6. Run `ping gpa-vbox.gpa.net` to make sure the new *hosts* file changes are in effect
 
 #### Hyper-V Virtual Machines Setup
 
