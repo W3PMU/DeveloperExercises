@@ -1,10 +1,10 @@
-[![The Open Source Phasor Data Concentrator](openPDC_Logo.png)](openPDC_Home.md "The Open Source Phasor Data Concentrator")
+|   |
+|---|
+| **[Grid Protection Alliance](http://www.gridprotectionalliance.org "Grid Protection Alliance Home Page")** |
 
-|   |   |   |   |
-|---|---|---|---|
-| **[Grid Protection Alliance](http://www.gridprotectionalliance.org "Grid Protection Alliance Home Page")** | **[openPDC Project](https://github.com/GridProtectionAlliance/openPDC "openPDC Project on GitHub")** | **[Documentation](openPDC_Documentation_Home.md "openPDC Documentation Home Page")** | **[Latest Release](https://github.com/GridProtectionAlliance/openPDC/releases "openPDC Releases Home Page")** |
+# Exercises for Grid Protection Alliance Software Developers and Testers
 
-# Development Exercises
+If you find any problems, missing critical details, or bad practices in these procedures, please either submit an Issue or update the exercises themselves.
 
 ## Common
 
