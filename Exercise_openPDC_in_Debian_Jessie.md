@@ -70,7 +70,9 @@ Do the following on the *Host PC*:
     - If 192.168.1.112 is listed in the `arp -a` list, then pick a different IP address and test again
 4. Run `notepac C:\Windows\system32\drivers\etc\hosts` and add the following entries
     - `192.168.1.40      gpa-vbox.gpa.net`
+    - `192.168.1.40      GPA-VBOX`
     - `192.168.1.112     opdc-d86.gpa.net`
+    - `192.168.1.112     OPDC-D86`
 5. Run `ipconfig /flushdns` to clear the local DNS cache
 6. Run `ping gpa-vbox.gpa.net` to make sure the new *hosts* file changes are in effect
 
@@ -84,9 +86,9 @@ In Production Deployments, complex passwords are desireable.  However, in these 
 
 ---
 
-### `OPDC-01` Server, Initial Setup
+### `OPDC-D86` Server, Initial Setup
 
-- 1. Download the `windows_server_2016.iso` file to the [`GPA-HOST`](#gpa-host--platform-host-server) server
+- 1. Download the `debian-8.6.0-amd64-netinst.iso` file to the [`GPA-VBOX`](#gpa-vbox--platform-host-server) server
 - 2. On the [`GPA-HOST`](#gpa-host--platform-host-server) server: create the [`OPDC-01`](#opdc-01--openpdc-server-virtual-machine) openPDC Server virtual machine.
     - Configure [`OPDC-01's`](#opdc-01--openpdc-server-virtual-machine) Hyper-V *Settings* as described in the earlier [Platform Configuration](#platform-configuration) section and assign the `windows_server_2016.iso` image file to its DVD drive.
 - 3. Start the `OPDC-01` virtual machine and run the Windows installation.  In the *Windows Setup* dialog's "Select the operating system..." screen, select "Windows Server 2016 Standard (Desktop Experience)"
