@@ -8,9 +8,11 @@
 
 ---
 
-# GPA [openPDC](https://github.com/GridProtectionAlliance/openPDC) Development Exercise
+# openPDC Development Exercise
 
-## Building the [openPDC](https://github.com/GridProtectionAlliance/openPDC) using Microsoft Visual Studio 2015 Community Edition
+Grid Protection Alliance Project = [openPDC](https://github.com/GridProtectionAlliance/openPDC)
+
+## Building the openPDC using Microsoft Visual Studio 2015 Community Edition
 
 This is a *cookbook recipe* style exercise procedure for setting up the GPA Developer with a Microsoft Visual Studio Community Edition development environment for for developing the openPDC software. This procedure was developed and tested using specified operating systems, software versions, and installation sequence. However, with appropriate modifications, this procedure should be adaptable to work in other hardware and software platforms.
 
@@ -241,7 +243,7 @@ This exercise demonstrated a "first time" approach to setting up a current platf
 
 ---
 
-Dec 26, 2016 - Cloned from [Exercise_GPA_GridSolutionsFramework_Development.md] and edited by [aj](https://github.com/ajstadlin)
+Dec 30, 2016 - Cloned from [Exercise_GPA_GridSolutionsFramework_Development.md] and edited by [aj](https://github.com/ajstadlin)
 
 ---
 
