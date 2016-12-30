@@ -10,7 +10,7 @@
 
 # Grid Solutions Framework Development Exercise
 
-Grid Protection Alliance Project = [GridSolutionsFramework](https://github.com/GridProtectionAlliance/gsf)
+[Grid Protection Alliance **GridSolutionsFramework**](https://github.com/GridProtectionAlliance/gsf)
 
 ## Building the GridSolutionsFramework using Microsoft Visual Studio 2015 Community Edition
 
