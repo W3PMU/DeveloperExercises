@@ -1,14 +1,14 @@
-[![The Open Source Phasor Data Concentrator](openPDC_Logo.png)](openPDC_Home.md "The Open Source Phasor Data Concentrator")
+[![The Open Source Phasor Data Concentrator](openPDC_Logo.png)](https://github.com/GridProtectionAlliance/openPDC "The Open Source Phasor Data Concentrator") [![PMU Connection Tester](PMUConnectionTester_Logo.png)](https://github.com/GridProtectionAlliance/PMUConnectionTester "PMU Connection Tester")
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-| **[Grid Protection Alliance](http://www.gridprotectionalliance.org "Grid Protection Alliance Home Page")** | **[openPDC Project](https://github.com/GridProtectionAlliance/openPDC "openPDC Project on GitHub")** | **[Documentation](openPDC_Documentation_Home.md "openPDC Documentation Home Page")** | **[Exercises](Developer_Exercises.md)** | **[Latest Release](https://github.com/GridProtectionAlliance/openPDC/releases "openPDC Releases Home Page")** |
+|   |   |   |   |
+|---|---|---|---|
+| **[Grid Protection Alliance](http://www.gridprotectionalliance.org "Grid Protection Alliance Home Page")** | **[openPDC Project](https://github.com/GridProtectionAlliance/openPDC "openPDC Project on GitHub")** | **[PMU Connection Tester Project](https://github.com/GridProtectionAlliance/PMUConnectionTester "PMU Connection Tester Project")** | **[Exercises](Developer_Exercises.md)** |
 
 ***This document is an exercise procedure for setting up and testing concepts.***
 
 ---
 
-# openPDC and PMU Connection Tester in Microsoft Windows Server 2016 and Windows 10
+# openPDC and PMU Connection Tester in Microsoft Windows Server and Windows
 
 This is a *cookbook recipe* style exercise procedure for setting up openPDC and PMU Connection Tester. This procedure was developed and tested using specified operating systems and software versions. However, with appropriate modifications, this procedure should be adaptable to work in other hardware and software platforms.
 
