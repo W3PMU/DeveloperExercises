@@ -1,16 +1,18 @@
-[![The Open Source Phasor Data Concentrator](openPDC_Logo.png)](openPDC_Home.md "The Open Source Phasor Data Concentrator")
+[![Grid Solutions Framework](gsf_Logo.png)](https://github.com/GridProtectionAlliance/gsf "Grid Solutions Framework")
 
-|   |   |   |   |   |   |   |
-|---|---|---|---|---|---|---|
-| **[Grid Protection Alliance](http://www.gridprotectionalliance.org "Grid Protection Alliance Home Page")** | **[openPDC Project](https://github.com/GridProtectionAlliance/openPDC "openPDC Project on GitHub")** | **[openPDC Wiki](openPDC_Home.md "openPDC Wiki Home Page")** | **[Documentation](openPDC_Documentation_Home.md "openPDC Documentation Home Page")** | **[Exercises](Developer_Exercises.md)** | **[Latest Release](https://github.com/GridProtectionAlliance/openPDC/releases "openPDC Releases Home Page")** |
+|   |   |   |
+|---|---|---|
+| **[Grid Protection Alliance](http://www.gridprotectionalliance.org "Grid Protection Alliance Home Page")** | **[Grid Solutions Framework Project](https://github.com/GridProtectionAlliance/gsf "GridSolutionsFramework Project on GitHub")** | **[Exercises](README.md)** |
 
 ***This document is an exercise procedure for setting up and testing concepts.***
 
 ---
 
-# GPA [GridSolutionsFramework](https://github.com/GridProtectionAlliance/gsf) Development Exercise
+# Grid Solutions Framework Development Exercise
 
-## Building the [GridSolutionsFramework](https://github.com/GridProtectionAlliance/gsf) using Microsoft Visual Studio 2015 Community Edition
+Project = [GridSolutionsFramework](https://github.com/GridProtectionAlliance/gsf)
+
+## Building the GridSolutionsFramework using Microsoft Visual Studio 2015 Community Edition
 
 This is a *cookbook recipe* style exercise procedure for setting up the GPA Developer with a Microsoft Visual Studio Community Edition development environment for for developing the GridProtectionAlliance software. This procedure was developed and tested using specified operating systems, software versions, and installation sequence. However, with appropriate modifications, this procedure should be adaptable to work in other hardware and software platforms.
 
@@ -283,7 +285,7 @@ This exercise demonstrated a "first time" approach to setting up a current platf
 
 ---
 
-Dec 26, 2016 - Created by [aj](https://github.com/ajstadlin)
+Dec 30, 2016 - Created by [aj](https://github.com/ajstadlin)
 
 ---
 
