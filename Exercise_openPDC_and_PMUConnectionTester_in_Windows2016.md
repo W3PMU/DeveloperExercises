@@ -2,7 +2,7 @@
 
 |   |   |   |   |
 |---|---|---|---|
-| **[Grid Protection Alliance](http://www.gridprotectionalliance.org "Grid Protection Alliance Home Page")** | **[openPDC Project](https://github.com/GridProtectionAlliance/openPDC "openPDC Project on GitHub")** | **[PMU Connection Tester Project](https://github.com/GridProtectionAlliance/PMUConnectionTester "PMU Connection Tester Project")** | **[Exercises](Developer_Exercises.md)** |
+| **[Grid Protection Alliance](http://www.gridprotectionalliance.org "Grid Protection Alliance Home Page")** | **[openPDC Project](https://github.com/GridProtectionAlliance/openPDC "openPDC Project on GitHub")** | **[PMU Connection Tester Project](https://github.com/GridProtectionAlliance/PMUConnectionTester "PMU Connection Tester Project")** | **[Exercises](README.md)** |
 
 ***This document is an exercise procedure for setting up and testing concepts.***
 
