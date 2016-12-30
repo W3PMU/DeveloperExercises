@@ -74,9 +74,9 @@ Do the following on the *Host PC*:
 5. Run `ipconfig /flushdns` to clear the local DNS cache
 6. Run `ping gpa-vbox.gpa.net` to make sure the new *hosts* file changes are in effect
 
-#### Hyper-V Virtual Machines Setup
+#### VirtualBox Virtual Machines Setup
 
-This example uses [Microsoft Developer Network (**MSDN**)](https://msdn.microsoft.com) subscription releases of the Windows operating system software in ISO file format. The ISO filenames in this document are renamed to be simplified.
+This example uses a minimal installation with [Debian 8.6.0 netinst.iso for amd64](http://mirrors.kernel.org/debian-cd/8.6.0/amd64/iso-cd/debian-8.6.0-amd64-netinst.iso) from [Mirrors.Kernel.org](http://mirrors.kernel.org).
 
 ##### **IMPORTANT: PASSWORDS**
 
