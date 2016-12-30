@@ -1,8 +1,8 @@
-[![The Open Source Phasor Data Concentrator](openPDC_Logo.png)](openPDC_Home.md "The Open Source Phasor Data Concentrator")
+[![The Open Source Phasor Data Concentrator](openPDC_Logo.png)](https://github.com/GridProtectionAlliance/openPDC "The Open Source Phasor Data Concentrator")
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-| **[Grid Protection Alliance](http://www.gridprotectionalliance.org "Grid Protection Alliance Home Page")** | **[openPDC Project](https://github.com/GridProtectionAlliance/openPDC "openPDC Project on GitHub")** | **[openPDC Documentation](openPDC_Documentation_Home.md "openPDC Documentation Home Page")** | **[Latest openPDC Release](https://github.com/GridProtectionAlliance/openPDC/releases "openPDC Releases Home Page")** | **[Exercises](README.md)** |
+|   |   |   |   |
+|---|---|---|---|
+| **[Grid Protection Alliance](http://www.gridprotectionalliance.org "Grid Protection Alliance Home Page")** | **[openPDC Project](https://github.com/GridProtectionAlliance/openPDC "openPDC Project on GitHub")** | **[Latest openPDC Release](https://github.com/GridProtectionAlliance/openPDC/releases "openPDC Releases Home Page")** | **[Exercises](README.md)** |
 
 ***This document is an exercise procedure for setting up and testing concepts.***
 
@@ -10,7 +10,7 @@
 
 # openPDC Development Exercise
 
-Grid Protection Alliance Project = [openPDC](https://github.com/GridProtectionAlliance/openPDC)
+[Grid Protection Alliance **openPDC**](https://github.com/GridProtectionAlliance/openPDC)
 
 ## Building the openPDC using Microsoft Visual Studio 2015 Community Edition
 
