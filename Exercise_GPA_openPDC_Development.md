@@ -243,7 +243,7 @@ This exercise demonstrated a "first time" approach to setting up a current platf
 
 ---
 
-Dec 30, 2016 - Cloned from [Exercise_GPA_GridSolutionsFramework_Development.md] and edited by [aj](https://github.com/ajstadlin)
+Dec 30, 2016 - Updated by [aj](https://github.com/ajstadlin)
 
 ---
 
