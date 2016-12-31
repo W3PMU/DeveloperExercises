@@ -10,6 +10,10 @@
 
 # openPDC and PMU Connection Tester in Microsoft Windows Server and Windows
 
+Grid Protection Alliance Projects
+- [openPDC](https://github.com/GridProtectionAlliance/openPDC)
+- [PMUConnectionTester](https://github.com/GridProtectionAlliance/PMUConnectionTester)
+
 This is a *cookbook recipe* style exercise procedure for setting up openPDC and PMU Connection Tester. This procedure was developed and tested using specified operating systems and software versions. However, with appropriate modifications, this procedure should be adaptable to work in other hardware and software platforms.
 
 This is *not a production deployment configuration*.  Production deployments need signifiant additional performance and security tuning.
