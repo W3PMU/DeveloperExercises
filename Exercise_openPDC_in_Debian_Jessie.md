@@ -26,6 +26,10 @@ This is a *cookbook recipe* style exercise procedure for setting up an openPDC S
     - [`OPDC-D86` Server, Initial Setup](#opdc-d86-server-initial-setup)
 - [`OPDC-D86` Server, GPA Software Installation](#opdc-d86-server-gpa-software-installation)
 
+- [Testing openPDC using PMU Connection Tester](#testing-openpdc-using-pmu-connection-tester)
+    - [Download and Install PMU Connection Tester](#download-and-install-pmu-connection tester)
+    - [Test the openPDC Output Stream over the Network with PMU Connection Tester](#test-the-openpdc-output-stream-over-the-network-with-pmu-connection-tester)
+
 ---
 
 ## Platform
@@ -313,8 +317,26 @@ You will need a Windows PC or virtual machine to install and run **PMU Connectio
 7. In the *Select Installation Folder* screen, change the *Folder* value to `C:\GPA\Apps\PMUConnectionTester\`
 8. Continue with the remaining PMU Connection Tester Setup by accepting the default values until it has completed.
 9. Run the PMU Connection Tester application with its first time defaults and click the *Connect* button.  
-    - [![](DeveloperExercises.files/PMUConnectionTester_FirstRunTest.png "PMU Connection Tester, First Run Test")]()
 
+### Test the openPDC Output Stream over the Network with PMU Connection Tester
+
+**Do the following tasks in the Windows machine with PMU Connection Tester:**
+
+1. Run the **PMU Connection Tester** application
+    - Select the *Settings* tab (in the lower middle of the screen). In the *Applications Settings* section, set the following parameters:
+        - Set the *ForceIPv4* value to `True`
+        - Set the *MaximumFrameDisplayBytes* value to `512` (the IEEE C37-118 Configuration Frame Size)
+    - Select the *UDP* tab in the *Connection Parameters*
+        - Set the *Local Port* value to `8800` (to match the openPDC Output Stream's *UDP Channel* Port#)
+        - Click the *Receive From* link and set *Use Specific Source IP* value to `192.168.1.112` (the `OPDC-D86` Server's IPv4 Address)
+    - In the *Protocol* tab
+        - Select the `IEEE C37.118.2005` protocol
+        - Click the *Configure Alternate Command Channel* link 
+            - Set the *Tcp Host IP* value to `192.168.1.112`
+            - Set the *Port* value to `8900`
+            - Clear the *Not defined* checkbox
+    - Click the *Connect* button
+2. If you get an error trying to connect and stream data, check the `OPDC-D86` Server and make sure the openPDC is running and check the openPDC console for related messages.
 
 ---
 
