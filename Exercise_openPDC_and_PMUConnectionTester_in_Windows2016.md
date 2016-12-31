@@ -29,7 +29,7 @@ This is *not a production deployment configuration*.  Production deployments nee
         - [Hyper-V Virtual Machines Setup](#hyper-v-virtual-machines-setup)
             - [IMPORTANT: PASSWORDS](#important-passwords)
     - [`OPDC-01` Server, Initial Setup](#opdc-01-server-initial-setup)
-    - [`PMU-TESTER` Workstation, Initial Setup](#pmu-tester-workstation-initial-setup)
+    - [`PMU-TESTER` Workstation Initial Setup](#pmu-tester-workstation-initial-setup)
 - [`OPDC-01` Server, GPA Software Installation](#opdc-01-server-gpa-software-installation)
     - [Create a Shared Folder on the `OPDC-01` Server for Receiving Software and Files](#create-a-shared-folder-on-the-opdc-01-server-for-receiving-software-and-files)
     - [Connect the `PMU-TESTER` Workstation to the `OPDC-01` and Map a Drive to the `\\OPDC-01\GPA.shared` Folder](#connect-the-pmu-tester-workstation-to-the-opdc-01-and-map-a-drive-to-the-opdc-01gpashared-folder)
@@ -38,7 +38,7 @@ This is *not a production deployment configuration*.  Production deployments nee
     - [Configuration Setup Utility](#configuration-setup-utility)
     - [Download the PMU Connection Tester Software and Save it to the `GPA.shared` Folder](#download-the-pmu-connection-tester-software-and-save-it-to-the-gpashared-folder)
     - [Install the PMU Connection Tester Software on the `OPDC-01` Server](#install-the-pmu-connection-tester-software-on-the-opdc-01-server)
-- [`PMU-TESTER` Workstation, GPA Software Installation](#pmu-tester-workstation-gpa-software-installation)
+- [`PMU-TESTER` Workstation GPA Software Installation](#pmu-tester-workstation-gpa-software-installation)
     - [Create a Folder on the PMU-TESTER Workstation for Receiving Software and Files](#create-a-folder-on-the-pmu-tester-workstation-for-receiving-software-and-files)
     - [Download the PMU Connection Tester Software and Save it to the `GPA.shared` Folder](#download-the-pmu-connection-tester-software-and-save-it-to-the-gpashared-folder)
     - [Install the PMU Connection Tester Software on the `PMU-TESTER` Workstation](#install-the-pmu-connection-tester-software-on-the-pmu-tester-workstation)
@@ -87,7 +87,7 @@ The virtual machines will be created with a clean operating system and software 
 
 ### Host Server Setup
 
-In this example, the *Host Server* is a general purpose physical server whose function is providing a Hyper-V infrastructure to run the virtual machines and local DNS service.  Setting up the *Host Server* is beyond the scope of this example.  However, the only significant *Host Server* setup beyond a clean Windows install is the installation of Hyper-V and DNS services.
+In this example, the *Host Server* is a general purpose physical server whose function is providing a Hyper-V infrastructure to run the virtual machines and local DNS service. Setting up the *Host Server* is beyond the scope of this example.  However, the only significant *Host Server* setup beyond a clean Windows install is the installation of Hyper-V and DNS services.
 
 #### DNS Configuration
 
@@ -115,9 +115,9 @@ In Production Deployments, complex passwords are desireable.  However, in these 
 
 ### `OPDC-01` Server, Initial Setup
 
-- 1. Download the `windows_server_2016.iso` file to the [`GPA-HOST`](#gpa-host--platform-host-server) server
-- 2. On the [`GPA-HOST`](#gpa-host--platform-host-server) server: create the [`OPDC-01`](#opdc-01--openpdc-server-virtual-machine) openPDC Server virtual machine.
-    - Configure [`OPDC-01's`](#opdc-01--openpdc-server-virtual-machine) Hyper-V *Settings* as described in the earlier [Platform Configuration](#platform-configuration) section and assign the `windows_server_2016.iso` image file to its DVD drive.
+- 1. Download the `windows_server_2016.iso` file to the [`GPA-HOST`](#gpa-host-platform-host-server) server
+- 2. On the [`GPA-HOST`](#gpa-host-platform-host-server) server: create the [`OPDC-01`](#opdc-01-openpdc-server-virtual-machine) openPDC Server virtual machine.
+    - Configure [`OPDC-01's`](#opdc-01-openpdc-server-virtual-machine) Hyper-V *Settings* as described in the earlier [Platform Configuration](#platform-configuration) section and assign the `windows_server_2016.iso` image file to its DVD drive.
 - 3. Start the `OPDC-01` virtual machine and run the Windows installation.  In the *Windows Setup* dialog's "Select the operating system..." screen, select "Windows Server 2016 Standard (Desktop Experience)"
 - 4. During setup, you will be prompted to enter an appropriate password for the *Administrator* account. The *Administrator* account will only be used for software installation and configuration changes requiring elevated privileges.
 - 5. Configure the static IP address
@@ -170,9 +170,9 @@ C:\Users\Administrator> ping time.nist.gov
 
 ### `PMU-TESTER` Workstation, Initial Setup
 
-- 1. Download the `windows_10_enterprise_2016_ltsb.iso` file to the [`GPA-HOST`](#gpa-host--platform-host-server) server
-- 2. On the [`GPA-HOST`](#gpa-host--platform-host-server) server: create the [`PMU-TESTER`](#pmu-tester--pmu-connection-tester-workstation-virtual-machine) Workstation virtual machine.
-    - Configure [`PMU-TESTER's`](#pmu-tester--pmu-connection-tester-workstation-virtual-machine) Hyper-V *Settings* as described in the earlier [Platform Configuration](#platform-configuration) section and assign the `windows_10_enterprise_2016_ltsb.iso` image file to its DVD drive.
+- 1. Download the `windows_10_enterprise_2016_ltsb.iso` file to the [`GPA-HOST`](#gpa-host-platform-host-server) server
+- 2. On the [`GPA-HOST`](#gpa-host-platform-host-server) server: create the [`PMU-TESTER`](#pmu-tester-pmu-connection-tester-workstation-virtual-machine) Workstation virtual machine.
+    - Configure [`PMU-TESTER's`](#pmu-tester-pmu-connection-tester-workstation-virtual-machine) Hyper-V *Settings* as described in the earlier [Platform Configuration](#platform-configuration) section and assign the `windows_10_enterprise_2016_ltsb.iso` image file to its DVD drive.
 - 3. Start the `PMU-TESTER` virtual machine and run the Windows installation.  
     - In the *Get going fast* screen, press the "Customize" button.
     - In the 3 *Customize settings* screens, turn All of the options to **Off**.  Optionally leave the "Browser, protection, and update / Use SmartScreen..." turned **On**
@@ -472,7 +472,7 @@ C:\Users\Administrator> ping time.nist.gov
 ---
 
 Dec 19, 2016 - Created by [aj](https://github.com/ajstadlin), version 1.0
-Dec 21, 2016 - Updated by [aj](https://github.com/ajstadlin), version 1.1
+Dec 30, 2016 - Updated by [aj](https://github.com/ajstadlin), version 1.1
 
 ---
 
