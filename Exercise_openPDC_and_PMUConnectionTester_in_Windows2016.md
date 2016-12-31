@@ -1,4 +1,4 @@
-[![The Open Source Phasor Data Concentrator](openPDC_Logo.png)](https://github.com/GridProtectionAlliance/openPDC "The Open Source Phasor Data Concentrator") [![PMU Connection Tester](PMUConnectionTester_Logo.png)](https://github.com/GridProtectionAlliance/PMUConnectionTester "PMU Connection Tester")
+[![The Open Source Phasor Data Concentrator](openPDC_Logo.png)](https://github.com/GridProtectionAlliance/openPDC "The Open Source Phasor Data Concentrator") and [![PMU Connection Tester](PMUConnectionTester_Logo.png)](https://github.com/GridProtectionAlliance/PMUConnectionTester "PMU Connection Tester")
 
 |   |   |   |   |
 |---|---|---|---|
