@@ -1,16 +1,18 @@
-[![The Open Source Phasor Data Concentrator](openPDC_Logo.png)](openPDC_Home.md "The Open Source Phasor Data Concentrator")
+[![The Open Source Phasor Data Concentrator](openPDC_Logo.png)](https://github.com/GridProtectionAlliance/openPDC "The Open Source Phasor Data Concentrator")
 
-|   |   |   |   |   |   |   |
-|---|---|---|---|---|---|---|
-| **[Grid Protection Alliance](http://www.gridprotectionalliance.org "Grid Protection Alliance Home Page")** | **[openPDC Project](https://github.com/GridProtectionAlliance/openPDC "openPDC Project on GitHub")** | **[openPDC Wiki](openPDC_Home.md "openPDC Wiki Home Page")** | **[Documentation](openPDC_Documentation_Home.md "openPDC Documentation Home Page")** | **[Exercises](Developer_Exercises.md)** | **[Latest Release](https://github.com/GridProtectionAlliance/openPDC/releases "openPDC Releases Home Page")** |
+|   |   |   |   |
+|---|---|---|---|
+| **[Grid Protection Alliance](http://www.gridprotectionalliance.org "Grid Protection Alliance Home Page")** | **[openPDC Project](https://github.com/GridProtectionAlliance/openPDC "openPDC Project on GitHub")** | **[Latest openPDC Release](https://github.com/GridProtectionAlliance/openPDC/releases "openPDC Releases Home Page")** | **[Exercises](README.md)** |
 
 ***This document is an exercise procedure for setting up and testing concepts.***
 
 ---
 
-# GPA [openPDC](https://github.com/GridProtectionAlliance/openPDC) Development Exercise
+# openPDC Development Exercise
 
-## Building the [openPDC](https://github.com/GridProtectionAlliance/openPDC) using Microsoft Visual Studio 2015 Community Edition
+[Grid Protection Alliance **openPDC**](https://github.com/GridProtectionAlliance/openPDC)
+
+## Building the openPDC using Microsoft Visual Studio 2015 Community Edition
 
 This is a *cookbook recipe* style exercise procedure for setting up the GPA Developer with a Microsoft Visual Studio Community Edition development environment for for developing the openPDC software. This procedure was developed and tested using specified operating systems, software versions, and installation sequence. However, with appropriate modifications, this procedure should be adaptable to work in other hardware and software platforms.
 
@@ -241,7 +243,7 @@ This exercise demonstrated a "first time" approach to setting up a current platf
 
 ---
 
-Dec 26, 2016 - Cloned from [Exercise_GPA_GridSolutionsFramework_Development.md] and edited by [aj](https://github.com/ajstadlin)
+Dec 30, 2016 - Updated by [aj](https://github.com/ajstadlin)
 
 ---
 
