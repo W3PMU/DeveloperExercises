@@ -234,10 +234,13 @@ cd ~/
 mkdir GPA
 cd GPA
 wget http://www.gridprotectionalliance.org/Products/openPDC/Scripts/install-openPDC.sh
+# Install the last stable POSIX compatible openPDC version
 sudo bash install-openPDC.sh -p
 ```
 
-- 2. Test openPDC by running its console and typing ***version*** in the running console. Type ***exit*** to quit the console.
+### Run openPDC
+
+- 1. Run openPDC console and type ***version*** in the running console. Type ***exit*** to quit the console.
 
 ```sh
 sudo mono /opt/openPDC/openPDC.exe -RunAsConsole
@@ -263,11 +266,11 @@ openPDC Service Version:
 exit
 ```
 
-***Notice that the script defaulted to openPDC version 2.2.70.0***
+***Notice that the scripted stable POSIX compatible openPDC is version 2.2.70.0***
 
-- 3. Uninstall openPDC by running `sudo bash install-openPDC.sh -u`
-- 4. Install openPDC from the Nightly Builds by running `sudo bash install-openPDC.sh -n -p`
-- 5. Test openPDC by running its console and typing ***version*** in the running console. Type ***exit*** to quit the console.
+- 2. Uninstall openPDC by running `sudo bash install-openPDC.sh -u`
+- 3. Install openPDC from the **Nightly Builds** by running `sudo bash install-openPDC.sh -n -p`
+- 4. Run the openPDC console and type ***version*** in the running console. Type ***exit*** to quit the console.
 
 ```sh
 sudo mono /opt/openPDC/openPDC.exe -RunAsConsole
@@ -291,27 +294,25 @@ openPDC Service Version:
 
 ---
 
-### Download the PMU Connection Tester Software and Save it to the `GPA.shared` Folder
+## Testing openPDC using PMU Connection Tester
 
-**Do the following tasks in the `PMU-TESTER` Workstation:**
+You will need a Windows PC or virtual machine to install and run **PMU Connection Tester** for the procedure below.
+
+### Download and Install PMU Connection Tester
+
+**Do the following tasks in a Windows machine:**
 
 1. Open the *Windows Accessories / Internet Explorer* web browser
 2. Navigate to the PMU Connection Tester Release page: [https://github.com/GridProtectionAlliance/PMUConnectionTester/releases](https://github.com/GridProtectionAlliance/PMUConnectionTester/releases)
 3. Scroll down to the *Downloads* section and click on the [PMUConnectionTesterSetup.zip](https://github.com/GridProtectionAlliance/PMUConnectionTester/releases/download/v4.5.6/PMUConnectionTesterSetup.zip) link to start the download.
     - When prompted, drop down the *Save* button menu and click *Save as*
-    - In the *Save As* dialog, browse to the mapped network drive `G:\`, then click the *Save* button.
-
-### Install the PMU Connection Tester Software on the `OPDC-01` Server
-
-**Do the following tasks in the `OPDC-01` Server**
-
-1. Open the *Windows System / File Explorer* and navigate to the `C:\GPA\GPA.shared` folder.
-2. Extract the `PMUConnectionTesterSetup.zip` contents to a new `C:\GPA\GPA.shared\PMUConnectionTesterSetup` folder and open the folder.
-3. Run the *PMUConnectionTesterSetup64.msi* setup wizard
-4. In the *Select Installation Folder* screen, change the *Folder* value to `C:\GPA\PMU Connection Tester\`
-    - [![](DeveloperExercises.files/PMUConnectionTester_Setup_Installation_Folder.png "PMU Connection Tester, Select Installation Folder")]()
-5. Continue with the remaining PMU Connection Tester Setup by accepting the default values until it has completed.
-6. Run the PMU Connection Tester application with its first time defaults and click the *Connect* button.  
+    - In the *Save As* dialog, create or browse to the `C:\GPA\shared` folder, then click the *Save* button.
+4. Open the *Windows System / File Explorer* and navigate to the `C:\GPA\shared` folder.
+5. Extract the `PMUConnectionTesterSetup.zip` contents to a new `C:\GPA\shared\PMUConnectionTesterSetup` folder and open the folder.
+6. Run the setup wizard: *PMUConnectionTesterSetup.msi* for 32-bit Windows or *PMUConnectionTesterSetup64.msi* for 64-bit Windows 
+7. In the *Select Installation Folder* screen, change the *Folder* value to `C:\GPA\Apps\PMUConnectionTester\`
+8. Continue with the remaining PMU Connection Tester Setup by accepting the default values until it has completed.
+9. Run the PMU Connection Tester application with its first time defaults and click the *Connect* button.  
     - [![](DeveloperExercises.files/PMUConnectionTester_FirstRunTest.png "PMU Connection Tester, First Run Test")]()
 
 
