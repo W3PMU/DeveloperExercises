@@ -291,7 +291,34 @@ openPDC Service Version:
 
 ---
 
-Dec 29, 2016 - Created by [aj](https://github.com/ajstadlin)
+### Download the PMU Connection Tester Software and Save it to the `GPA.shared` Folder
+
+**Do the following tasks in the `PMU-TESTER` Workstation:**
+
+1. Open the *Windows Accessories / Internet Explorer* web browser
+2. Navigate to the PMU Connection Tester Release page: [https://github.com/GridProtectionAlliance/PMUConnectionTester/releases](https://github.com/GridProtectionAlliance/PMUConnectionTester/releases)
+3. Scroll down to the *Downloads* section and click on the [PMUConnectionTesterSetup.zip](https://github.com/GridProtectionAlliance/PMUConnectionTester/releases/download/v4.5.6/PMUConnectionTesterSetup.zip) link to start the download.
+    - When prompted, drop down the *Save* button menu and click *Save as*
+    - In the *Save As* dialog, browse to the mapped network drive `G:\`, then click the *Save* button.
+
+### Install the PMU Connection Tester Software on the `OPDC-01` Server
+
+**Do the following tasks in the `OPDC-01` Server**
+
+1. Open the *Windows System / File Explorer* and navigate to the `C:\GPA\GPA.shared` folder.
+2. Extract the `PMUConnectionTesterSetup.zip` contents to a new `C:\GPA\GPA.shared\PMUConnectionTesterSetup` folder and open the folder.
+3. Run the *PMUConnectionTesterSetup64.msi* setup wizard
+4. In the *Select Installation Folder* screen, change the *Folder* value to `C:\GPA\PMU Connection Tester\`
+    - [![](DeveloperExercises.files/PMUConnectionTester_Setup_Installation_Folder.png "PMU Connection Tester, Select Installation Folder")]()
+5. Continue with the remaining PMU Connection Tester Setup by accepting the default values until it has completed.
+6. Run the PMU Connection Tester application with its first time defaults and click the *Connect* button.  
+    - [![](DeveloperExercises.files/PMUConnectionTester_FirstRunTest.png "PMU Connection Tester, First Run Test")]()
+
+
+---
+
+Dec 28, 2016 - Created by [aj](https://github.com/ajstadlin)  
+Dec 30, 2016 - Updated by [aj](https://github.com/ajstadlin)
 
 ---
 
