@@ -17,15 +17,20 @@ This is a *cookbook recipe* style exercise procedure for setting up an openPDC S
 - [Platform](#platform)
     - [Platform Description](#platform-description)
     - [Platform Configuration](#platform-configuration)
-        - [`GPA-VBOX` Platform Host Server](#gpa-vbox-platform-host-server)
+        - [`GPA-VBOX` Platform Host PC](#gpa-vbox-platform-host-pc)
         - [`OPDC-D86` openPDC Server virtual machine](#opdc-d86-openpdc-server-virtual-machine)
-    - [Host Server Setup](#host-server-setup)
+    - [Host PC Setup](#host-server-setup)
         - [DNS Configuration](#dns-configuration)
         - [VirtualBox Virtual Machines Setup](#virtualbox-virtual-machines-setup)
             - [IMPORTANT: PASSWORDS](#important-passwords)
-    - [`OPDC-D86` Server, Initial Setup](#opdc-d86-server-initial-setup)
-- [`OPDC-D86` Server, GPA Software Installation](#opdc-d86-server-gpa-software-installation)
-
+- [`OPDC-D86` Server, Initial Setup](#opdc-d86-server-initial-setup)
+    - [`OPDC-D86` Server Configuration](#opdc-d86-server-configuration)
+- [`OPDC-D86` Server Software and Utilities Installation](#opdc-d86-server-software-and-utilities-installation)
+    - [Git](#git)
+    - [Python](#python)
+    - [Mono](#mono)
+- [openPDC Installation](#openpdc-installation)
+    - [Run openPDC](#run-openpdc)
 - [Testing openPDC using PMU Connection Tester](#testing-openpdc-using-pmu-connection-tester)
     - [Download and Install PMU Connection Tester](#download-and-install-pmu-connection tester)
     - [Test the openPDC Output Stream over the Network with PMU Connection Tester](#test-the-openpdc-output-stream-over-the-network-with-pmu-connection-tester)
@@ -42,15 +47,16 @@ The virtual machines will be created with a clean operating system and software 
 
 ### Platform Configuration
 
-#### **`GPA-VBOX`** Platform Host PC
+#### `GPA-VBOX` Platform Host PC
     - Windows 10 Enterprise 2016 LTSB with Oracle VirtualBox 5.1.12 for hosting virtual machines
+    - Software = [Oracle VirtualBox](http://www.virtualbox.org)
     - CPU = Intel i7, 2.8GHz, Laptop
     - RAM = 16GB, 2133 MHz, non-ECC
     - WiFi Ethernet with Internet access
 
-#### **`OPDC-D86`** openPDC Server virtual machine
+#### `OPDC-D86` openPDC Server virtual machine
     - OS = Debian Jessie 8.6.0 amd64 from netinst.iso 
-    - Software = **GPA Software**
+    - Software = [openPDC](https://github.com/GridProtectionAlliance/openPDC), [mono](http://www.mono-project.com/)
     - CPU = 3 virtual cores
     - RAM = 3072 MB
 	- Video Memory = 128 MB
