@@ -346,8 +346,27 @@ You will need a Windows PC or virtual machine to install and run **PMU Connectio
 
 ---
 
-Dec 28, 2016 - Created by [aj](https://github.com/ajstadlin)  
-Dec 30, 2016 - Updated by [aj](https://github.com/ajstadlin)
+## X11 Installation
+
+GUI installation instructions are derived from the procedure described in: [GUIDE Raspbian Lite with LXDE/XFCE/MATE/Openbox GUI](https://www.raspberrypi.org/forums/viewtopic.php?f=66&t=133691)
+
+```
+sudo apt-get install xserver-xorg 
+# sudo apt-get install xserver-xorg --no-install-recommends
+sudo apt-get install xinit x11-xserver-utils
+sudo reboot
+
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo apt-get install lxde-core --fix-missing
+sudo reboot
+... login ...
+startx
+```
+
+---
+
+Jan 01, 2017 - Created by [aj](https://github.com/ajstadlin)
 
 ---
 
