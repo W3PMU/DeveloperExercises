@@ -8,7 +8,7 @@
 
 ---
 
-# openPDC in Debian Jessie
+# openPDC in Debian Jessie with LXDE GUI
 
 [Grid Protection Alliance **openPDC**](https://github.com/GridProtectionAlliance/openPDC)
 
