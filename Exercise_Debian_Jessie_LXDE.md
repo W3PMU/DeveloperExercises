@@ -370,7 +370,7 @@ sudo nano /etc/lightdm/lightdm.conf
 sudo dpkg-reconfigure lightdm
 
 # install optional utility software
-sudo apt-get install htop ntp ntpdate freerdp-x11 x11vnc lxterminal leafpad -y
+sudo apt-get install htop ntp ntpdate freerdp-x11 x11vnc lxterminal leafpad clipit -y
 sudo reboot
 
 # Disable Console Screen Blanking
