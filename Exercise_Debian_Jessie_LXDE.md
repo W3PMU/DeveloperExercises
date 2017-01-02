@@ -362,6 +362,16 @@ sudo apt-get install lxde-core --fix-missing
 sudo reboot
 ... login ...
 startx
+
+sudo apt-get install lightdm
+sudo nano /etc/lightdm/lightdm.conf
+	autologin-user=pi
+	autologin-user-timeout=0
+sudo dpkg-reconfigure lightdm
+
+# install optional utility software
+sudo apt-get install htop ntp ntpdate freerdp-x11 x11vnc lxterminal leafpad -y
+sudo reboot
 ```
 
 ---
