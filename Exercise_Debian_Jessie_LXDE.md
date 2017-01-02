@@ -372,6 +372,30 @@ sudo dpkg-reconfigure lightdm
 # install optional utility software
 sudo apt-get install htop ntp ntpdate freerdp-x11 x11vnc lxterminal leafpad -y
 sudo reboot
+
+# Disable Console Screen Blanking
+sudo nano /etc/X11/xorg.conf
+Section "Monitor"
+    Identifier "Monitor"
+    Option "DPMS" "false"
+EndSection
+Section "ServerLayout"
+    Identifier "ServerLayout0"
+    Option "BlankTime"  "0"
+    Option "StandbyTime" "0"
+    Option "SuspendTime" "0"
+    Option "OffTime" "0"
+EndSection
+
+sudo mkdir /etc/kbd
+sudo nano /etc/kbd/config
+BLANK_TIME=0
+BLANK_DPMS=off
+POWERDOWN_TIME=0
+
+sudo nano /etc/rc.local
+setterm -blank 0 -powersave off -powerdown 0
+setterm -blank 0 -powersave off -powerdown 0 >/dev/console
 ```
 
 ---
