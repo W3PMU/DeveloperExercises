@@ -22,8 +22,8 @@ This is a *cookbook recipe* style exercise that illustrates GitHub forked projec
         - [Frequently Asked Questions (FAQ)](#cloning-frequently-asked-questions-faq)
         - [Configuring ssh](#configuring-ssh)
         - [Cloning Your Project from GitHub to Your Local Machine](#cloning-your-project-from-github-to-your-local-machine)
-        - [Configure Your Cloned Project Remotes](#configure-your-cloned-project-remotes)
-- [Synchronizing Your GitHub Fork with the Upstream Master](#synchronizing-your-project-fork-with-the-upstream-master)
+- [Synchronizing Your GitHub Fork with the Upstream Master Repository](#synchronizing-your-project-fork-with-the-upstream-master-repository)
+    - [Configuring Your Cloned Project Remotes](#configure-your-cloned-project-remotes)
     - [Pulling Changes from Your GitHub Fork](#pulling-changes-from-your-github-fork)
     - [Pulling Changes from the Upstream Master](#pulling-changes-from-the-upstream-master)
     - [Pushing Changes to your GitHub Fork](#pushing-chagnes-to-your-gethub-fork)
@@ -119,11 +119,30 @@ The following procedure configures **ssh** to enable *git* to efficiently commun
 3. Clone the project with the command: `git clone git@github.com:W3PMU/DeveloperExercises_fork.git`
     - screenshot: [git clone](Exercise_GitHub_Fork.files/git_01.png)
 
-#### Configure Your Cloned Project Remotes
+You now have a local *clone* of your GitHub *forked* repository.
 
 ---
 
-## Synchronizing Your GitHub Fork with the Upstream Master
+## Synchronizing Your GitHub Fork with the Upstream Master Repository
+
+When the main upstream repository is changed by other contributors, your GitHub *fork* and your local *clones* may need to be synchronized with the main upstream repository.
+
+The general procedure for synchornizing your GitHub *fork* and local *clones* can be a variation of the following steps:
+
+1. Add and Commit changes to your local *clone*
+2. Pull any changes from your GitHub *fork* to merge with your local *clone*
+2. Pull changes from the main upstream repository to merge with your local *clone*
+3. Push your local *clone* changes to your GitHub *fork*
+
+### Configuring Your Cloned Project Remotes
+
+Your local *clone* needs to have 2 **git remote** connections defined. The default **remote** named *origin* was defined when the repository was cloned from the *fork*. To pull from the main upstream project, add another **remote**.  
+
+1. On your local machine, open a *bash* compatible terminal. In Windows, run the Git client: `git-bash.exe`.
+2. Navigate to your *clone* folder
+3. Run `git remote -v` to review existing git remotes
+4. Add a new remote for the main upstream repository by running the following command:
+    - `git remote add gpa https://githup.com/GridProtectionAlliance/DeveloperExercises.git`
 
 ### Pulling Changes from Your GitHub Fork
 
