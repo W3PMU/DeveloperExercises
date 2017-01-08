@@ -19,7 +19,9 @@ This is a *cookbook recipe* style exercise that illustrates GitHub forked projec
     - [Git Software](#git-software)
 - [Forking a Project](#forking-a-project)
     - [Cloning Your Project Fork](#cloning-your-project-fork)
-    - [Frequently Asked Questions (FAQ)](#cloning-frequently-asked-questions-faq)
+        - [Frequently Asked Questions (FAQ)](#cloning-frequently-asked-questions-faq)
+        - [Configuring ssh](#configuring-ssh)
+        - [Cloning Your Project from GitHub to Your Local Machine](#cloning-your-project-from-github-to-your-local-machine)
         - [Configure Your Cloned Project Remotes](#configure-your-cloned-project-remotes)
 - [Synchronizing Your GitHub Fork with the Upstream Master](#synchronizing-your-project-fork-with-the-upstream-master)
     - [Pulling Changes from Your GitHub Fork](#pulling-changes-from-your-github-fork)
@@ -95,8 +97,20 @@ The following procedure configures **ssh** to enable *git* to efficiently commun
 3. If your directory listing for the `~/.ssh` folder contains the files: `id_rsa` and `id_rsa.pub` then you can probably skip the **ssh-keygen** step.  If the directory does not have those files the run the **ssh-keygen** utility.
     - When running **ssh-keygen** accept all of the defaults by pressing the *Enter* key. A passphrase is not needed for this exercise.
         - screenshot: [ssh-keygen](Exercise_GitHub_Fork.files/ssh_02.png)
+4. Copy the *ssh-rsa* contents from the `~/.ssh/id_rsa.pub` file to your machine *clipboard*
+    - screenshot: [ssh-rsa key in id_rsa.pub](Exercise_GitHub_Fork.files/ssh_03.png)
+5. Open a web browser and sign in to your [GitHub.com](https://github.com) account
+6. Drop down your Profile menu and select *Settings*
+    - screenshot: [Profile menu Settings](Exercise_GitHub_Fork.files/GitHub_Settings_01.png)
+7. Select the *SSH and GPG keys* item from left side Personal settings menu
+8. Click the *New SSH key* button in the upper right
+9. Paste the *ssh-rsa* key from the id_rsa.pub file into the *Key* text box. If paste does not work, repeat step 4 above and try again.
+10. Enter a *Title* for the key. This is typically set to the username@machinename found at the end of the key.
+    - screenshot: [New SSH Key](Exercise_GitHub_Fork.files/GitHub_Settings_02.png)
+10. Click the *Add SSH key*
+    - screenshot: [Added SSH Key](Exercise_GitHub_Fork.files/GitHub_Settings_03.png)
 
-#### How to Clone Your Project from GitHub to Your Local Machine
+#### Cloning Your Project from GitHub to Your Local Machine
 
 1.
 
