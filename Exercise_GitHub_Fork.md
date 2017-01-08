@@ -18,6 +18,7 @@ This is a *cookbook recipe* style exercise that illustrates GitHub forked projec
     - [GitHub.com Account](#githubcom-account)
 - [Forking a Project](#forking-a-project)
     - [Cloning Your Project Fork](#cloning-your-project-fork)
+    - [Frequently Asked Questions (FAQ)](#cloning-frequently-asked-questions-faq)
         - [Configure Your Cloned Project Remotes](#configure-your-cloned-project-remotes)
 - [Synchronizing Your GitHub Fork with the Upstream Master](#synchronizing-your-project-fork-with-the-upstream-master)
     - [Pulling Changes from Your GitHub Fork](#pulling-changes-from-your-github-fork)
@@ -54,6 +55,23 @@ The folllowing demonstrates how to create a *Fork* of this DeveloperExercises pr
     - screenshot: [Your *Forked* project's *Settings* showing *Repository name* changed and *Restricted editing* checked](Exercise_GitHub_Fork.files/Fork_04.png)
 
 ### Cloning Your Project Fork
+
+*Clone* a project's repository to work with the project's files on your local machine. 
+
+#### Frequently Asked Questions (FAQ)
+
+- What is a *clone*?
+
+> A *clone*, in the scope of this exercise, is a copy of a *git* repository.
+
+- What is a *fork*?
+
+> A *fork*, in the scope of this exercise, is a *GitHub* repository that was *cloned* from another existing *GitHub* repository. 
+
+- Should I *clone* my *fork* or should I *clone* the mainstream or *upstream* repository?
+
+> When you *clone* your *fork*, it is easier to push your local changes to your *fork* on GitHub.
+
 
 #### Configure Your Cloned Project Remotes
 
