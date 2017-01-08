@@ -40,6 +40,8 @@ This exercise uses a PC or virtual machine with Internet connection and Git comm
 
 You need a [GitHub.com](https://github.com) registered account with a verifiable email address to perform the tasks in this exercise.  A free GitHub account can be used for this exercise.
 
+This exercise will use a GitHub account named *W3PMU*.  To perform this exercise, replace *W3PMU* with your own GitHub account name.
+
 ### Git Software
 
 - *Windows* - Download and install Git from [https://git-scm.com](https://git-scm.com/). This exercised was tested using a *Portable* version.
@@ -112,8 +114,10 @@ The following procedure configures **ssh** to enable *git* to efficiently commun
 
 #### Cloning Your Project from GitHub to Your Local Machine
 
-1.
-
+1. On your local machine, open a *bash* compatible terminal. In Windows, run the Git client: `git-bash.exe`.
+2. Navigate to or Create a convenient work folder
+3. Clone the project with the command: `git clone git@github.com:W3PMU/DeveloperExercises_fork.git`
+    - screenshot: [git clone](Exercise_GitHub_Fork.files/git_01.png)
 
 #### Configure Your Cloned Project Remotes
 
