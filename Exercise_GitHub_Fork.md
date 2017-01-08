@@ -16,6 +16,7 @@ This is a *cookbook recipe* style exercise that illustrates GitHub forked projec
 
 - [Platform](#platform)
     - [GitHub.com Account](#githubcom-account)
+    - [Git Software](#git-software)
 - [Forking a Project](#forking-a-project)
     - [Cloning Your Project Fork](#cloning-your-project-fork)
     - [Frequently Asked Questions (FAQ)](#cloning-frequently-asked-questions-faq)
@@ -56,21 +57,39 @@ The folllowing demonstrates how to create a *Fork* of this DeveloperExercises pr
 
 ### Cloning Your Project Fork
 
+For simplicity in the scope of this exercise: *Forks* are on GitHub and *Clones* are on your local machine.
+
 *Clone* a project's repository to work with the project's files on your local machine. 
 
 #### Frequently Asked Questions (FAQ)
 
 - What is a *clone*?
 
-> A *clone*, in the scope of this exercise, is a copy of a *git* repository.
+> A *clone*, in the scope of this exercise, is a copy of a *git* repository. *Cloning* a repository is the procedure for making a copy of the repository. Unlike a downloaded *zip* or *tar* file containing a copy of the repository's files, a clone includes git's content management metadata that enables you to pull updates and merge changes in your repository.
 
 - What is a *fork*?
 
-> A *fork*, in the scope of this exercise, is a *GitHub* repository that was *cloned* from another existing *GitHub* repository. 
+> A *fork*, in the scope of this exercise, is a *GitHub* repository that was *cloned* from another existing *GitHub* repository. *Forking* a repository is the procedure for cloning a GitHub repository from the main *upstream* source to your own GitHub repositories collection.
 
 - Should I *clone* my *fork* or should I *clone* the mainstream or *upstream* repository?
 
-> When you *clone* your *fork*, it is easier to push your local changes to your *fork* on GitHub.
+> When you *clone* your *fork*, it is easier to push your local changes to your *fork* on GitHub. Using the GitHub *fork* and *pull request* workflow allows you and others to review your changes before committing them to the main *upstream* project.
+
+- Can I *fork* my *clone*?
+
+> No, not in the scope of this exercise.  GitHub cannot access your *clones* on your local machine; so GitHub cannot *fork* your *clones*.
+
+
+#### Configuring **ssh**
+
+The following procedure configures **ssh** to enable *git* to efficiently communicate between GitHub and your local machine. If you have a Windows machine, 
+
+
+
+
+#### How to Clone Your Project from GitHub to Your Local Machine
+
+1.
 
 
 #### Configure Your Cloned Project Remotes
