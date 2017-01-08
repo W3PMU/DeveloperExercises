@@ -87,10 +87,14 @@ For simplicity in the scope of this exercise: *Forks* are on GitHub and *Clones*
 
 #### Configuring **ssh**
 
-The following procedure configures **ssh** to enable *git* to efficiently communicate between GitHub and your local machine. If you have a Windows machine, 
+The following procedure configures **ssh** to enable *git* to efficiently communicate between GitHub and your local machine. **ssh** client comes standard in most Linux distributions.  If you have a Windows machine and installed the [Git Software](#git-software) client as described in the beginning of this exercise, the *MINGW bash* terminal provides an **ssh** client. 
 
-
-
+1. On your local machine, open a *bash* compatible terminal. In Windows, run the Git client: `git-bash.exe`.
+2. Review the directory listinf for the folder `~/.ssh` using the command: `ls -al ~/.ssh`
+    - screenshot: [typical .ssh directory listing](Exercise_GitHub_Fork.files/ssh_01.png)
+3. If your directory listing for the `~/.ssh` folder contains the files: `id_rsa` and `id_rsa.pub` then you can probably skip the **ssh-keygen** step.  If the directory does not have those files the run the **ssh-keygen** utility.
+    - When running **ssh-keygen** accept all of the defaults by pressing the *Enter* key. A passphrase is not needed for this exercise.
+        - screenshot: [ssh-keygen](Exercise_GitHub_Fork.files/ssh_02.png)
 
 #### How to Clone Your Project from GitHub to Your Local Machine
 
