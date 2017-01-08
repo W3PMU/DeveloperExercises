@@ -34,11 +34,19 @@ This exercise uses a PC or virtual machine with Internet connection and Git comm
 
 ### GitHub.com Account
 
-You need a GitHub.com registered account to perform the tasks in this exercise.
+You need a [GitHub.com](https://github.com) registered account to perform the tasks in this exercise.  A free GitHub account can be used for this exercise.
 
 ---
 
 ## Forking a Project
+
+The folllowing demonstrates how to create a *Fork* of this DeveloperExercises project.
+
+1. Run a web browser and Sign in to [https://github.com](https://github.com)
+2. Navigate to the [DeveloperExercises](https://github.com/GridProtectionAlliance/DeveloperExercises) repository
+3. Click the *Fork* button
+4. 
+
 
 ### Cloning Your Project Fork
 
