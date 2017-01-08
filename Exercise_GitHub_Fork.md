@@ -38,6 +38,11 @@ This exercise uses a PC or virtual machine with Internet connection and Git comm
 
 You need a [GitHub.com](https://github.com) registered account with a verifiable email address to perform the tasks in this exercise.  A free GitHub account can be used for this exercise.
 
+### Git Software
+
+- *Windows* - Download and install Git from [https://git-scm.com](https://git-scm.com/). This exercised was tested using a *Portable* version.
+- *Linux* - Install Git using your distro's package manager or build Git from source code. For example: [Git instructions in Exercise_openPDC_in_Debian_Jessie](Exercise_openPDC_in_Debian_Jessie.md#git)
+
 ---
 
 ## Forking a Project
