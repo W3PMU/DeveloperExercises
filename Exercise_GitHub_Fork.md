@@ -6,10 +6,6 @@
 
 ---
 
-# UNDER CONSTRUCTION
-
----
-
 # GitHub Fork Exercise
 
 This is a *cookbook recipe* style exercise that illustrates GitHub forked project workflow methods.
