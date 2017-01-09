@@ -138,17 +138,27 @@ The general procedure for synchornizing your GitHub *fork* and local *clones* ca
 
 Your local *clone* needs to have 2 **git remote** connections defined. The default **remote** named *origin* was defined when the repository was cloned from the *fork*. To pull from the main upstream project, add another **remote**.  
 
-1. On your local machine, open a *bash* compatible terminal. In Windows, run the Git client: `git-bash.exe`.
+1. On your local machine, open a *bash* compatible terminal. In Windows, run the Git client: `git-bash.exe`
 2. Navigate to your *clone* folder
 3. Run `git remote -v` to review existing git remotes
 4. Add a new remote for the main upstream repository by running the following command:
     - `git remote add gpa https://githup.com/GridProtectionAlliance/DeveloperExercises.git`
+    - screenshot: [Review remotes](Exercise_GitHub_Fork.files/git_02.png)
 
-### Pulling Changes from Your GitHub Fork
+### Pulling Changes from Your GitHub Fork to Your Local Clone
+
+1. Run `git pull origin master` to pull changes from your fork to your clone
+    - screenshot: [Update your local clone from your GitHub fork](Exercise_GitHub_Fork.files/git_03.png)
 
 ### Pulling Changes from the Upstream Master
 
+1. Run `git pull gpa master` to update your clone with changes from the main upstream repository
+    - screenshot: [Pull changes from the main project](Exercise_GitHub_Fork.files/git_04.png)
+
 ### Pushing Changes to your GitHub Fork
+
+1. Run `git push origin master` to push your local *clone's* changes up to up to your GitHub *fork*
+    - screenshot: [Push to your GitHub fork](Exercise_GitHub_Fork.files/git_05.png)
 
 ---
 
