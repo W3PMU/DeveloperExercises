@@ -6,10 +6,6 @@
 
 ---
 
-# UNDER CONSTRUCTION
-
----
-
 # GitHub Fork Exercise
 
 This is a *cookbook recipe* style exercise that illustrates GitHub forked project workflow methods.
@@ -180,6 +176,7 @@ The folllowing demonstrates how to create a *Pull Request* to submit your contri
     - screenshot: [Open a pull request](Exercise_GitHub_Fork.files/PullRequest_04.png)
 9. Click the *Create pull request* button
     - screenshot: [Completed pull request](Exercise_GitHub_Fork.files/PullRequest_05.png)
+<<<<<<< HEAD
 
 ---
 
@@ -188,6 +185,12 @@ The folllowing demonstrates how to create a *Pull Request* to submit your contri
 ---
 
 Jan 8, 2017 - Under Construction
+=======
+
+---
+
+Jan 8, 2017 - created by [aj](https://github.com/ajstadlin)
+>>>>>>> 2b2511e29ba6fc814b3cd760ab890a9b9fa8181b
 
 ---
 
