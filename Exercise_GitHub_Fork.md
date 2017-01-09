@@ -183,11 +183,7 @@ The folllowing demonstrates how to create a *Pull Request* to submit your contri
 
 ---
 
-## Managing Merge Conflicts
-
----
-
-Jan 8, 2017 - Under Construction
+Jan 8, 2017 - created by [aj](https://github.com/ajstadlin)
 
 ---
 
