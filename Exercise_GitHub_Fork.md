@@ -164,13 +164,30 @@ Your local *clone* needs to have 2 **git remote** connections defined. The defau
 
 ## Creating a Pull Request
 
+The folllowing demonstrates how to create a *Pull Request* to submit your contributions from your *Fork* to the main upstream project.
+
+1. Run a web browser and Sign in to [https://github.com](https://github.com)
+2. Navigate to the [DeveloperExercises](https://github.com/GridProtectionAlliance/DeveloperExercises) repository
+3. Click the *Pull requests* tab button
+    - screenshot: [GitHub project page showing *Pull requests* tab button](Exercise_GitHub_Fork.files/PullRequest_01.png)
+4. Click the *New pull request* button in the upper right
+5. Click the *compare across forks* link in the "Compare changes across branches..." text
+6. Click and drop down the *head fork:* button and select your *fork* from the drop down list
+    - screenshot: [Select your fork from the head forks drop down](Exercise_GitHub_Fork.files/PullRequest_02.png)
+7. Check for the green *Able to merge* check message
+    - screenshot: [Able to merge check](Exercise_GitHub_Fork.files/PullRequest_03.png)
+8. Click the *Create pull request* button 
+    - screenshot: [Open a pull request](Exercise_GitHub_Fork.files/PullRequest_04.png)
+9. Click the *Create pull request* button
+    - screenshot: [Completed pull request](Exercise_GitHub_Fork.files/PullRequest_05.png)
+
 ---
 
 ## Managing Merge Conflicts
 
 ---
 
-Jan 7, 2017 - Under Construction
+Jan 8, 2017 - Under Construction
 
 ---
 
